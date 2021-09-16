@@ -2,7 +2,7 @@
 
 namespace App\Providers;
 
-use Illuminate\Support\ServiceProvider;
+use Collective\Annotations\AnnotationsServiceProvider as ServiceProvider;
 
 class AnnotationsServiceProvider extends ServiceProvider
 {
